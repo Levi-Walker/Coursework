@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:background="@color/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditActivity">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.078"
+        tools:srcCompat="@tools:sample/avatars"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"/>
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:autofillHints="Name"
+        android:ems="10"
+        android:paddingHorizontal="5dp"
+        android:hint="Product Name"
+        android:textColorHint="@color/black"
+        android:inputType="text"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/edit_text_border"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageButton"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/editTextQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/edit_text_border"
+        android:hint="Amount Purchased"
+        android:textColorHint="@color/black"
+        android:paddingHorizontal="5dp"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editName"
+         />
+
+
+    <LinearLayout
+        android:id="@+id/dateLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="@+id/editTextQuantity"
+        app:layout_constraintStart_toStartOf="@+id/editTextQuantity"
+        app:layout_constraintTop_toBottomOf="@+id/editTextQuantity"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:id="@+id/editTextExpirationDate"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:text="Expiration Date"
+            android:textSize="18sp"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:background="@drawable/edit_text_border"
+            android:paddingHorizontal="5dp"
+            android:clickable="true"
+            android:focusable="true"/>
+
+        <Button
+            android:id="@+id/btnDateChange"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="-5dp"
+            android:backgroundTint="@color/secondary"
+            android:padding="0dp"
+            android:text="Set Expiration"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:backgroundTint="@color/secondary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dateLayout"
+        app:layout_constraintVertical_bias="0.098" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,61 @@
+# IDE, editor, and agent metadata
+.idea/
+.vscode/
+.vs/
+.codex/
+AGENTS.md
+.aider*
+.venv/
+*.iml
+*.iws
+
+# Python and notebook caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# R session files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Android / Gradle
+**/.gradle/
+**/build/
+**/local.properties
+**/captures/
+**/.externalNativeBuild/
+**/.cxx/
+*.apk
+*.aab
+
+# Signing credentials
+*.jks
+*.keystore
+keystore.properties
+
+# Credentials and local secrets
+.env
+.env.*
+!.env.example
+credentials*.json
+secrets*.json
+service-account*.json
+google-services.json
+kaggle.json
+*.pem
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+
+# OS and temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.tmp

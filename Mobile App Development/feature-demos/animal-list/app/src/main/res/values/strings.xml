@@ -1,0 +1,14 @@
+
+<resources>
+    <string name="app_name">Animal List</string>
+    <string name="DescBlueWhale">Largest animal on the planet, they feed on small crustaceans and are known for their complex underwater songs.</string>
+    <string name="DescChameleon">Reptiles known for their ability to change color to blend in with their environment. They have independent eyes that can move separately.</string>
+    <string name="DescElephant">Largest land mammal, they have a trunk used for manipulating objects, communicating, and feeding. They have an incredible memory.</string>
+    <string name="DescGorilla">Robust and social primates that live in groups led by a dominant male. They share significant genetic proximity with humans.</string>
+    <string name="DescLion">Large feline and one of the biggest terrestrial carnivores. They live in social groups called prides, and females are the primary hunters.</string>
+    <string name="DescOctopus">Marine invertebrates with eight tentacles and a highly developed brain. They are known for their intelligence and camouflaging abilities.</string>
+    <string name="DescOwl">Nocturnal birds with excellent vision and hearing, known for their symbolic wisdom. They are efficient predators in hunting.</string>
+    <string name="DescPenguin">Birds adapted to life in water, many species live in Antarctica and have impressive swimming abilities. Some species form monogamous pairs.</string>
+    <string name="DescShark">Characteristic: Marine predators with various species, they come in diverse shapes and sizes. They are crucial for maintaining the balance of marine ecosystems.</string>
+    <string name="DescSnake">Legless carnivorous reptiles, many species are venomous and have amazing camouflaging abilities. They shed their skin periodically.</string>
+</resources>

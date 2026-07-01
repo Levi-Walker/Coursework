@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Quote of the Day</string>
+    <string name="next_button">Next</string>
+    <string name="quote_text_0">Problem with internet quotes is that you can’t always depend on their accuracy.</string>
+    <string name="quote_author_0">Abraham Lincoln</string>
+    <string name="quote_text_1">Age is not important unless you’re a cheese.</string>
+    <string name="quote_author_1">Helen Hayes</string>
+    <string name="quote_text_2">It always seems impossible until it’s done.</string>
+    <string name="quote_author_2">Nelson Mandela</string>
+
+
+</resources>

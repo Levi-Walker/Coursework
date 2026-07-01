@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Direction Picker Animation</string>
+    <string name="direction_prompt">Tap to choose a direction</string>
+</resources>

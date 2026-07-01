@@ -1,0 +1,5 @@
+<resources>
+    <style name="Base.Theme.ProductRegistration" parent="Theme.Material3.DayNight.NoActionBar" />
+
+    <style name="Theme.ProductRegistration" parent="Base.Theme.ProductRegistration" />
+</resources>
